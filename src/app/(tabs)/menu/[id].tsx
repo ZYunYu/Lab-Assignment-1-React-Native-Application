@@ -7,7 +7,7 @@ const ProductDetailsScreen = () => {
 
     return (
         <View>
-            <Stack.Screen options={{ title: 'Product Details' }} />
+            <Stack.Screen options={{ title: 'Product Details: ' + id}} />
 
             <Text>ProductDetailsScreen for id: {id}</Text>
         </View>
